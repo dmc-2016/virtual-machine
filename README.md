@@ -1,4 +1,4 @@
-# Deep Learning	Vagrant	Machine
+# DMC Virtual Machine
 
 These Vagrant files automates the installation of a working Deep Learning machine running on Ubuntu 14.04.
 
