@@ -1,8 +1,10 @@
 #!/bin/bash
+
 ##################################
-# Deep Learning Vagrant Machine  #
-#     by Holberton School        #
+#       DMC Virtual Machine      #
+#       by Danil Nagy            #
 ##################################
+
 function install {
     echo installing "$1"
     shift
