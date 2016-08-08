@@ -22,7 +22,7 @@ apt-get -y update >/dev/null 2>&1
 
 # Theano
 install 'pip' python-pip
-install 'theano dependencies' python-numpy python-scipy python-dev python-pip python-nose g++ git libatlas3gf-base libatlas-dev
+install 'theano dependencies' python-matplotlib python-numpy python-scipy python-dev python-pip python-nose g++ git libatlas3gf-base libatlas-dev
 pip_install 'theano' theano
 
 # Keras
@@ -41,6 +41,5 @@ pip_install 'required Python libraries' pyyaml cython
 install 'hdf5' libhdf5-7
 pip_install 'ipython' ipython
 pip_install 'jupyter' jupyter
-install 'matplotlib' matplotlib
 
 echo 'All set!'
